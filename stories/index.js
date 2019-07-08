@@ -3,7 +3,7 @@ import { storiesOf } from '@storybook/react';
 import '../node_modules/bootstrap/dist/css/bootstrap.css';
 import NewsForm from '../src/components/newsForm/';
 import NewsItem from '../src/components/newsItem';
-import NewsList from '../src/components/newsList';
+import NewsList from '../cypress/integration/newsList';
 import { action } from "@storybook/addon-actions";
 import CommentForm from "../src/components/commentForm";
 import Comment from "../src/components/comment";
