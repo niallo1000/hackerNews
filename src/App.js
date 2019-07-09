@@ -4,6 +4,7 @@ import Form from './components/newsForm/';
 import api from './dataStore/stubAPI';
 import _ from 'lodash';
 
+
 export default class App extends Component {
   addNewsItem = (title, author, link) => {
     api.add(title, author, link);
