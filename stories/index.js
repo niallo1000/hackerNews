@@ -3,7 +3,7 @@ import { storiesOf } from '@storybook/react';
 import '../node_modules/bootstrap/dist/css/bootstrap.css';
 import NewsForm from '../src/components/newsForm/';
 import NewsItem from '../src/components/newsItem';
-import NewsList from '../cypress/integration/newsList';
+import NewsList from '../src/components/newsList';
 import { action } from "@storybook/addon-actions";
 import CommentForm from "../src/components/commentForm";
 import Comment from "../src/components/comment";
@@ -11,6 +11,7 @@ import CommentList from "../src/components/commentList";
 import Header from "../src/components/header/";
 import { MemoryRouter } from "react-router";
 import LoginForm from "../src/components/authentication/loginForm";
+
 
 
 const post = {
@@ -93,3 +94,4 @@ storiesOf("Hacker App/Login Form", module)
     .add("default", () => (
         <LoginForm />
     ));
+
